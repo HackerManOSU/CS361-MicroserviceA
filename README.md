@@ -1,6 +1,37 @@
 # CS361-MicroserviceA
 File age analyzer microservice using Flask API for teammates file analyzer python script
 
+## Setup
+
+### 1. Install Packages
+```bash Install packages
+pip install flask
+pip install requests
+```
+### 2. Start Microservice
+```bash Run Microservice
+python3 microservice.py
+```
+
+or
+
+```bash Run Microservice
+
+python microservice.py
+
+```
+
+### 3. Update and Run Your Modified Script
+```bash Run Main Program
+python3 mainprogram.py
+```
+
+or
+
+```bash Run Main Program
+python mainprogram.py
+```
+
 ## Requesting Data
 
 To request the age of a file, you need to send a POST request to the microservice with the file path included in the JSON payload. Below is an example using Python's requests library:
